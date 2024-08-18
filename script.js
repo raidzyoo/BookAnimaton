@@ -7,18 +7,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const lyricsContainer = document.getElementById('lyrics-container');
     let intervalId;
 
-    const lyrics = [
-        { time: 0, text: "....." },
-        { time: 3, text: "Jadi kekasihku saja" },
-        { time: 6, text: "Katakan cinta katakan cinta" },
-        { time: 9, text: "Hati ini meminta" },
-        { time: 16, text: "Kau lebih dari teman berbagi" },
-        { time: 20, text: "Jadi kekasihku saja" },
-        { time: 23, text: "cinta katakan cinta" },
-        { time: 30, text: "Hati inin meminta" },
-        { time: 33, text: "Kau lebih dari teman berbagii.." },
-        { time: 37, text: "....." },
-        { time: 44, text: "....." },
+  const lyrics = [
+        { time: 0, text: "Jadi kekasihku saja" },
+        { time: 0, text: "Jadi kekasihku saja" },
+        { time: 3, text: "Katakan cinta katakan cinta" },
+        { time: 7, text: "Hati ini meminta" },
+        { time: 11, text: "Kau lebih dari teman berbagi" },
+        { time: 16, text: "Jadi kekasihku saja" },
+        { time: 19, text: "cinta katakan cinta" },
+        { time: 22, text: "Hati inin meminta" },
+        { time: 26, text: "Kau lebih dari teman berbagii.." },
+        { time: 31, text: "....." },
+        { time: 32, text: "....." },
     ];
 
     playPauseButton.addEventListener('click', () => {
